@@ -1,7 +1,7 @@
 title: "Oddinuna Blog"
 description: "개발·일상 블로그"
-url: "https://oddinuna.github.io"
-theme: "jekyll-shell-theme"
+url: "https://gahyun-git.github.io"
+remote_theme: "tareqdandachi/jekyll-shell-theme"
 
 # 글/링크 기본 설정
 author: "oddi_nuna"
@@ -13,7 +13,7 @@ permalink: /:categories/:year/:month/:day/:title/
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
-  - jekyll-shell-theme
+  - jekyll-remote-theme
 
 minima:
   skin: auto         # light/dark 자동
