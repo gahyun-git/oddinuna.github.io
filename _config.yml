@@ -1,0 +1,28 @@
+title: "Oddinuna Blog"
+description: "개발·일상 블로그"
+url: "https://oddinuna.github.io"
+theme: minima
+
+# 글/링크 기본 설정
+author: "oddi_nuna"
+locale: ko_KR
+timezone: Asia/Seoul
+permalink: /:categories/:year/:month/:day/:title/
+
+# 피드/SEO(옵션)
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+minima:
+  skin: auto         # light/dark 자동
+  social_links:
+    - { platform: github, user_url: "https://github.com/gahyun-git" }
+
+# 내비게이션 (아래 _data/navigation.yml 사용)
+header_pages:
+  - about.md
+
+# 빌드 제외(원하면 추가)
+exclude:
+  - README.md
