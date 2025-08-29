@@ -22,6 +22,7 @@ minima:
 
 # 내비게이션 (아래 _data/navigation.yml 사용)
 header_pages:
+  - index.md
   - about.md
 
 # 빌드 제외(원하면 추가)
